@@ -1,4 +1,4 @@
-document.getElementById("About1").onclick = function(){
+document.getElementById("About1", "NextPage").onclick = function(){
     document.getElementById("About1").style.zIndex = "-2";
     document.getElementById("About2").style.zIndex = "0";
     document.getElementById("About3").style.zIndex = "-1";
